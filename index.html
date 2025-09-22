@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter API App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Harry Potter Karakter Info</h1>
+  </header>
+
+  <main>
+    <section class="search-box">
+      <input type="text" id="searchInput" placeholder="Skriv et navn, f.eks. Harry Potter...">
+      <button id="searchBtn">Søk</button>
+    </section>
+
+    <section id="characterInfo" class="card hidden"></section>
+  </main>
+
+  <footer>
+    <p>Laget av [Ditt Navn] – Data hentet fra <a href="https://hp-api.onrender.com/api/characters" target="_blank">HP API</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
